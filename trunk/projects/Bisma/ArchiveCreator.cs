@@ -97,12 +97,13 @@ namespace palad1.bisma{
                 getFiles(child,files);
         }
         public static void Main(string[] args){
-            string localDirPath=arg[0];
+            string localDirPath=args[0];
             
-            
+                                                
 
             ArchiveCreator cr=new ArchiveCreator();     
 
+            
             ArrayList arFiles=new ArrayList();
             getFiles(new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.Personal)),arFiles);
             FileInfo[] files=(FileInfo[])arFiles.ToArray(typeof(FileInfo));

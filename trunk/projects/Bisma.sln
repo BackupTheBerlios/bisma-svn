@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisma", "Bisma.csproj", "{F0508CD7-5DE8-440F-B9B4-B78A94990114}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KFFTP", "KFFTP\KFFTP.csproj", "{809C7197-2D09-4C12-8F7C-B9FC58EFFF07}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F0508CD7-5DE8-440F-B9B4-B78A94990114}.Debug.ActiveCfg = Debug|.NET
+		{F0508CD7-5DE8-440F-B9B4-B78A94990114}.Debug.Build.0 = Debug|.NET
+		{F0508CD7-5DE8-440F-B9B4-B78A94990114}.Release.ActiveCfg = Release|.NET
+		{F0508CD7-5DE8-440F-B9B4-B78A94990114}.Release.Build.0 = Release|.NET
+		{809C7197-2D09-4C12-8F7C-B9FC58EFFF07}.Debug.ActiveCfg = Debug|.NET
+		{809C7197-2D09-4C12-8F7C-B9FC58EFFF07}.Debug.Build.0 = Debug|.NET
+		{809C7197-2D09-4C12-8F7C-B9FC58EFFF07}.Release.ActiveCfg = Release|.NET
+		{809C7197-2D09-4C12-8F7C-B9FC58EFFF07}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
